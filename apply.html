@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apply</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Register</title>
 </head>
 <body>
-    
+    <nav id="navbar">
+        <a href="index.html">Home</a> 
+        <a href="login.html">Login</a> 
+        <a href="apply.html">Register</a> 
+    </nav>
+    <h1>Apply Page</h1>
+    <div class="login">
+        <form action="#">
+            <h2 style="padding-top: 2rem;">Register User</h2>
+            <input type="text" name="Username" id="user" placeholder="Select Username"><br>
+            <input type="password" name="Password" id="user" placeholder="Select Password"><br>
+            <input type="password" name="Password" id="user" placeholder="Confirm Password"><br>
+            <label for="division">Select Division:</label>
+            <select name="division" id="">
+                <option value="--" selected disabled>--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select><br>
+            <input type="button" value="Register" id="btn"><br>
+        </form>
+    </div>
 </body>
 </html>
